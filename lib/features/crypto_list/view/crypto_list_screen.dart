@@ -78,28 +78,7 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
               );
             },
           ),
-        )
-
-        //   (_cryptoCoinsList == null)
-        //     ? const Center(
-        //         child: CircularProgressIndicator(),
-        //       )
-        //     : ListView.separated(
-        //         padding: const EdgeInsets.only(top: 16),
-        //         itemCount: _cryptoCoinsList!.length,
-        //         separatorBuilder: (context, index) => Divider(
-        //               color: theme.dividerTheme.color,
-        //             ),
-        //         itemBuilder: (context, i) {
-        //           final coin = _cryptoCoinsList![i];
-        //           return CryptoCoinTile(coin: coin);
-        //         }),
-        // floatingActionButton: FloatingActionButton(
-        //   child: const Icon(Icons.download),
-        //   onPressed: () async {
-        //     await _loadCryptoCoins();
-        //   },
-        );
+        ));
     // );
   }
 }

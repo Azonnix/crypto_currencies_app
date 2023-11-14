@@ -9,5 +9,5 @@ class CryptoCoin extends Equatable {
       {required this.name, required this.priceInUSD, required this.imageUrl});
       
   @override
-  List<Object?> get props => [name, priceInUSD, imageUrl];
+  List<Object> get props => [name, priceInUSD, imageUrl];
 }
